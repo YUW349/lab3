@@ -10,6 +10,7 @@ $(document).ready(function() {
  */
 function initializePage() {
 	$("#testjs").click(function(e) {
+		$(".jumbotron h1").text("I AM SO SWAG")
 		//step42
 		$("#testjs").text("Please wait...");
 		//step43
